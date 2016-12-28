@@ -1,8 +1,8 @@
 # start the app by running
-# `ruby sw-4567.rb`
+# `ruby sw-server.rb 4568`
 # 
-# for more app servers, clone this file and increment filenames and ports 
-# sw-4568, 4569, etc...
+# for more app servers, rerun this file and increment ports 
+# `ruby sw-server 4568`, `ruby sw-server 4569`, etc...
 # 
 # run in different terminal windows or as background processes
 # 
@@ -10,7 +10,8 @@
 
 require "sinatra"
 
-set :port, 4567
+port = (ARGV[0] || 4567).to_i
+set :port, port
 set :server, 'puma'
 
 get "/" do

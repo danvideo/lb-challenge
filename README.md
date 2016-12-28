@@ -48,7 +48,7 @@ For testing this, I setup the following on small CentOS box: <br>
 * For the purposes of this assignment I installed and deployed it on one CentOS server with the following: Ruby, Sinatra, Go, HAProxy, Apache Bench, and teeproxy.
 * The following files are included:
 	* `README.md` this document
-	* `sw-4567.rb` Ruby file for example of basic app server setup
+	* `sw-server.rb.rb` Ruby file for example of basic app server setup
 	* `haproxy.cfg` HAProxy config file
 	* `misc-commands.sh` Apache Bench & teeproxy commands
 * Note [teeproxy GO app](https://github.com/chrislusf/teeproxy) needs to be built with a small code change in lines 72 and 105.  Change this: <br>
