@@ -17,11 +17,11 @@
 # it could easily keep forwarding around the POSTs to N more :9002, :9003, etc
 
 #window #3 
-ruby w-4567.rb 
+ruby sw-server.rb 4567
 #4 
-ruby sw-4568.rb
+ruby sw-server.rb 4568
 #5 
-ruby sw-4569.rb
+ruby sw-server.rb 4569
 
 # -------
 # TESTING
